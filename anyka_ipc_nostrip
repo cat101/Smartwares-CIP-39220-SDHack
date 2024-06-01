@@ -1,0 +1,54 @@
+#! /bin/sh
+# /mnt/tf/debug.ini is needed so that this script is excecuted
+# if /mnt/tf/production_test.ini is absent then a log file is created on the SD card
+
+echo "HOLA ----> Enabling SDHack ---------------"
+echo "HOLA ----> Enabling SDHack ---------------" > /dev/kmsg
+
+# Read settings from config file
+. /mnt/tf/sdhack_settings.ini
+
+# Open a passwordless backdoor telnet (could be used to debug)
+#
+# telnetd -l /bin/sh -p 40 &
+
+# Change root password
+#
+mount --bind /mnt/tf/config/passwd  /etc/passwd
+mount --bind /mnt/tf/config/profile  /etc/profile
+
+# Update wpa_supplicant
+#
+mount --bind /mnt/tf/tools/wpa_supplicant /usr/bin/wpa_supplicant
+
+# Apply config settings (if needed)
+#
+if ! test -f /etc/jffs2/sdhack_applied; then
+    # Backup settings once
+    if ! test -f /mnt/tf/original_settings_backup.tgz; then
+        tar -cvzf /mnt/tf/original_settings_backup.tgz /etc/jffs2/config
+    fi
+
+    # Overwrite settings
+    cp -a /mnt/tf/config/*.json /etc/jffs2/config/
+
+    # Change root password
+    /mnt/tf/tools/change_passwd.sh $ROOT_PASSWD
+
+    # Change IP addresses
+    sed -i 's/\(^[ \t]*"strIpV4"[ \t]*:[ \t]"\)192.168.14.112/\1'$WLAN_IP'/g' /etc/jffs2/config/network.json
+    sed -i 's/\(^[ \t]*"strIpV4"[ \t]*:[ \t]"\)192.168.14.113/\1'$LAN_IP'/g' /etc/jffs2/config/network.json
+    sed -i 's/\(^[ \t]*"passphrase"[ \t]*:[ \t]"\)WIFI_PASSWD/\1'$WIFI_PASSWD'/g' /etc/jffs2/config/network.json
+    sed -i 's/\(^[ \t]*"essid"[ \t]*:[ \t]"\)WIFI_SSID/\1'$WIFI_SSID'/g' /etc/jffs2/config/network.json
+    sed -i 's/"192.168.14.1"/"'$GW_DNS_NTP'"/g' /etc/jffs2/config/*.json
+    touch /etc/jffs2/sdhack_applied # Prevent the hack from reapplying
+fi
+
+# Setup a watchdog on case conectivity goes down
+#
+/mnt/tf/tools/watchcat.sh $GW_DNS_NTP "$WIFI_SSID_2" "$WIFI_PASSWD_2" &
+
+# Continue normal boot process
+#
+/mnt/tf/tools/anyka_ipc &
+

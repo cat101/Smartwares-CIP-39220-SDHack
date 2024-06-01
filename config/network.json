@@ -1,0 +1,448 @@
+{
+	"nHttpPort":	80,
+	"nN1Port":	80,
+	"nRtspPort":	554,
+	"nHikPort":	8000,
+	"ipGatway":	{
+		"bEnableV4":	false,
+		"bEnableV6":	false,
+		"strIpV4":	"0.0.0.0",
+		"strIpV6":	"::"
+	},
+	"stEthernetList":	[{
+			"bEnable":	true,
+			"bEnableDHCP":	false,
+			"strEthName":	"eth0",
+			"macAddr":	"9C:A3:A9:DC:C5:2F",
+			"mtu":	1400,
+			"ipAddress":	{
+				"bEnableV4":	true,
+				"bEnableV6":	false,
+				"strIpV4":	"192.168.14.113",
+				"strIpV6":	"::"
+			},
+			"ipMask":	{
+				"bEnableV4":	true,
+				"bEnableV6":	false,
+				"strIpV4":	"255.255.255.0",
+				"strIpV6":	"::"
+			},
+			"ipGatway":	{
+				"bEnableV4":	true,
+				"bEnableV6":	false,
+				"strIpV4":	"192.168.14.1",
+				"strIpV6":	"::"
+			}
+		}, {
+			"bEnable":	false,
+			"bEnableDHCP":	false,
+			"strEthName":	"eth0:1",
+			"macAddr":	"",
+			"mtu":	0,
+			"ipAddress":	{
+				"bEnableV4":	false,
+				"bEnableV6":	false,
+				"strIpV4":	"0.0.0.0",
+				"strIpV6":	"::"
+			},
+			"ipMask":	{
+				"bEnableV4":	false,
+				"bEnableV6":	false,
+				"strIpV4":	"0.0.0.0",
+				"strIpV6":	"::"
+			},
+			"ipGatway":	{
+				"bEnableV4":	false,
+				"bEnableV6":	false,
+				"strIpV4":	"0.0.0.0",
+				"strIpV6":	"::"
+			}
+		}, {
+			"bEnable":	false,
+			"bEnableDHCP":	false,
+			"strEthName":	"",
+			"macAddr":	"",
+			"mtu":	0,
+			"ipAddress":	{
+				"bEnableV4":	false,
+				"bEnableV6":	false,
+				"strIpV4":	"0.0.0.0",
+				"strIpV6":	"::"
+			},
+			"ipMask":	{
+				"bEnableV4":	false,
+				"bEnableV6":	false,
+				"strIpV4":	"0.0.0.0",
+				"strIpV6":	"::"
+			},
+			"ipGatway":	{
+				"bEnableV4":	false,
+				"bEnableV6":	false,
+				"strIpV4":	"0.0.0.0",
+				"strIpV6":	"::"
+			}
+		}],
+	"stWifiList":	[{
+			"strESSID":	"123456",
+			"strPSK":	"123456",
+			"bEnableDHCP":	false,
+			"stEthernet":	{
+				"bEnable":	true,
+				"bEnableDHCP":	false,
+				"strEthName":	"wlan0",
+				"macAddr":	"9C:A3:A9:78:A2:BE",
+				"mtu":	0,
+				"ipAddress":	{
+					"bEnableV4":	true,
+					"bEnableV6":	false,
+					"strIpV4":	"192.168.14.112",
+					"strIpV6":	"::"
+				},
+				"ipMask":	{
+					"bEnableV4":	true,
+					"bEnableV6":	false,
+					"strIpV4":	"255.255.255.0",
+					"strIpV6":	"::"
+				},
+				"ipGatway":	{
+					"bEnableV4":	true,
+					"bEnableV6":	false,
+					"strIpV4":	"192.168.14.1",
+					"strIpV6":	"::"
+				}
+			},
+			"DomainNameServer":	{
+				"bEnableV4":	false,
+				"bEnableV6":	false,
+				"strIpV4":	"0.0.0.0",
+				"strIpV6":	"::"
+			},
+			"enWiFiMode":	1,
+			"bApLocalMode":	0,
+			"stStation":	{
+				"essid":	"WIFI_SSID",
+				"passphrase":	"WIFI_PASSWD",
+				"hidden":	0,
+				"enAccessChannel":	0
+			},
+			"stAccessPoint":	{
+				"essid":	"IPCF5AA3275700716",
+				"passphrase":	"11111111",
+				"hidden":	0,
+				"enAccessChannel":	1
+			},
+			"stStationAlternative":	{
+				"essid":	"",
+				"passphrase":	"",
+				"hidden":	0,
+				"enAccessChannel":	0
+			},
+			"connection":	0,
+			"stationsignal":	0,
+			"ConnectionList":	[{
+					"BssID":	"0.0.0.0.0.0",
+					"Rate":	0
+				}, {
+					"BssID":	"0.0.0.0.0.0",
+					"Rate":	0
+				}, {
+					"BssID":	"0.0.0.0.0.0",
+					"Rate":	0
+				}, {
+					"BssID":	"0.0.0.0.0.0",
+					"Rate":	0
+				}, {
+					"BssID":	"0.0.0.0.0.0",
+					"Rate":	0
+				}, {
+					"BssID":	"0.0.0.0.0.0",
+					"Rate":	0
+				}, {
+					"BssID":	"0.0.0.0.0.0",
+					"Rate":	0
+				}, {
+					"BssID":	"0.0.0.0.0.0",
+					"Rate":	0
+				}],
+			"RepeaterId":	"none",
+			"enOdmBand":	0,
+			"bSetMac":	0
+            }, {
+                "strESSID":	"",
+                "strPSK":	"",
+                "bEnableDHCP":	false,
+                "stEthernet":	{
+                    "bEnable":	false,
+                    "bEnableDHCP":	false,
+                    "strEthName":	"",
+                    "macAddr":	"",
+                    "mtu":	0,
+                    "ipAddress":	{
+                        "bEnableV4":	false,
+                        "bEnableV6":	false,
+                        "strIpV4":	"0.0.0.0",
+                        "strIpV6":	"::"
+                    },
+                    "ipMask":	{
+                        "bEnableV4":	false,
+                        "bEnableV6":	false,
+                        "strIpV4":	"0.0.0.0",
+                        "strIpV6":	"::"
+                    },
+                    "ipGatway":	{
+                        "bEnableV4":	false,
+                        "bEnableV6":	false,
+                        "strIpV4":	"0.0.0.0",
+                        "strIpV6":	"::"
+                    }
+                },
+                "DomainNameServer":	{
+                    "bEnableV4":	false,
+                    "bEnableV6":	false,
+                    "strIpV4":	"0.0.0.0",
+                    "strIpV6":	"::"
+                },
+                "enWiFiMode":	0,
+                "bApLocalMode":	0,
+                "stStation":	{
+                    "essid":	"",
+                    "passphrase":	"",
+                    "hidden":	0,
+                    "enAccessChannel":	0
+                },
+                "stAccessPoint":	{
+                    "essid":	"",
+                    "passphrase":	"",
+                    "hidden":	0,
+                    "enAccessChannel":	0
+                },
+                "stStationAlternative":	{
+                    "essid":	"",
+                    "passphrase":	"",
+                    "hidden":	0,
+                    "enAccessChannel":	0
+                },
+                "connection":	0,
+                "stationsignal":	0,
+                "ConnectionList":	[{
+                        "BssID":	"0.0.0.0.0.0",
+                        "Rate":	0
+                    }, {
+                        "BssID":	"0.0.0.0.0.0",
+                        "Rate":	0
+                    }, {
+                        "BssID":	"0.0.0.0.0.0",
+                        "Rate":	0
+                    }, {
+                        "BssID":	"0.0.0.0.0.0",
+                        "Rate":	0
+                    }, {
+                        "BssID":	"0.0.0.0.0.0",
+                        "Rate":	0
+                    }, {
+                        "BssID":	"0.0.0.0.0.0",
+                        "Rate":	0
+                    }, {
+                        "BssID":	"0.0.0.0.0.0",
+                        "Rate":	0
+                    }, {
+                        "BssID":	"0.0.0.0.0.0",
+                        "Rate":	0
+                    }],
+                "RepeaterId":	"",
+                "enOdmBand":	0,
+                "bSetMac":	0
+            }],
+	"stP2PList":	[{
+			"bEnable":	false,
+			"enP2PType":	0,
+			"strCloudId":	"",
+			"bCloudSnapshoot":	false,
+			"bCloudRecord":	false,
+			"bVoice":	false,
+			"bAlarm":	false
+		}, {
+			"bEnable":	false,
+			"enP2PType":	0,
+			"strCloudId":	"",
+			"bCloudSnapshoot":	false,
+			"bCloudRecord":	false,
+			"bVoice":	false,
+			"bAlarm":	false
+		}, {
+			"bEnable":	false,
+			"enP2PType":	0,
+			"strCloudId":	"",
+			"bCloudSnapshoot":	false,
+			"bCloudRecord":	false,
+			"bVoice":	false,
+			"bAlarm":	false
+		}, {
+			"bEnable":	false,
+			"enP2PType":	0,
+			"strCloudId":	"",
+			"bCloudSnapshoot":	false,
+			"bCloudRecord":	false,
+			"bVoice":	false,
+			"bAlarm":	false
+		}, {
+			"bEnable":	false,
+			"enP2PType":	0,
+			"strCloudId":	"",
+			"bCloudSnapshoot":	false,
+			"bCloudRecord":	false,
+			"bVoice":	false,
+			"bAlarm":	false
+		}, {
+			"bEnable":	false,
+			"enP2PType":	0,
+			"strCloudId":	"",
+			"bCloudSnapshoot":	false,
+			"bCloudRecord":	false,
+			"bVoice":	false,
+			"bAlarm":	false
+		}],
+	"bIpadapt":	false,
+	"stNTP":	{
+		"bEnableNTP":	true,
+		"strNtpServer":	"192.168.14.1",
+		"nNtpPort":	0,
+		"nInterval":	3600
+	},
+	"stDNS":	{
+		"dnsServer1IpAddr":	{
+			"bEnableV4":	false,
+			"bEnableV6":	false,
+			"strIpV4":	"192.168.14.1",
+			"strIpV6":	"::"
+		},
+		"dnsServer2IpAddr":	{
+			"bEnableV4":	false,
+			"bEnableV6":	false,
+			"strIpV4":	"8.8.8.8",
+			"strIpV6":	"::"
+		}
+	},
+	"stDDNS":	{
+		"bEnableDDNS":	false,
+		"enHostIdx":	0,
+		"stDdnsList":	[{
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}, {
+				"strUsername":	"",
+				"strPassword":	"",
+				"strUrl":	"",
+				"nDdnsPort":	0,
+				"nInterval":	0
+			}]
+	},
+	"stEmail":	{
+		"account":	"",
+		"password":	"",
+		"stSender":	{
+			"name":	"",
+			"address":	""
+		},
+		"smtpServer":	"",
+		"stReceipterList":	[{
+				"name":	"",
+				"address":	""
+			}, {
+				"name":	"",
+				"address":	""
+			}, {
+				"name":	"",
+				"address":	""
+			}],
+		"bAttachment":	false,
+		"bSmtpServerVerify":	false,
+		"bSslServerVerify":	false,
+		"smtpServerPort":	0
+	},
+	"stPPPOE":	{
+		"bEnablePPPoE":	false,
+		"strUsername":	"",
+		"strPassword":	""
+	},
+	"stGSM":	{
+		"bEnableGsm":	false,
+		"bEnableDHCP":	true,
+		"strPingSevrer0":	"www.dvr163.com",
+		"strPingSevrer1":	"8.8.8.8",
+		"strPingSevrer2":	"114.114.114.114",
+		"ipAddress":	{
+			"bEnableV4":	true,
+			"bEnableV6":	false,
+			"strIpV4":	"192.168.43.100",
+			"strIpV6":	"::"
+		},
+		"ipMask":	{
+			"bEnableV4":	true,
+			"bEnableV6":	false,
+			"strIpV4":	"255.255.255.0",
+			"strIpV6":	"::"
+		},
+		"ipGatway":	{
+			"bEnableV4":	true,
+			"bEnableV6":	false,
+			"strIpV4":	"192.168.43.1",
+			"strIpV6":	"::"
+		},
+		"apn":	"",
+		"username":	"",
+		"password":	"",
+		"encrypt":	0
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"strAppBound":	"",
+	"strP2PMod":	"",
+	"LinkVisual":	{
+		"strProduct_key":	"",
+		"strProduct_secret":	"",
+		"strDevice_name":	"",
+		"strDevice_secret":	"",
+		"nDistribution_network_type":	0
+	}
+}

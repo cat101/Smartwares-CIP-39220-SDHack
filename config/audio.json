@@ -1,0 +1,33 @@
+{
+	"stAudioAilist":	[{
+			"bEnable":	false,
+			"bAmic":	true,
+			"enEncodeType":	3,
+			"enSampleSize":	16,
+			"enSampleSpeed":	8000,
+			"enStereo":	0,
+			"nVolume":	68,
+			"nGain":	40,
+			"bNoiseReduction":	false
+		}, {
+			"bEnable":	false,
+			"bAmic":	true,
+			"enEncodeType":	1,
+			"enSampleSize":	16,
+			"enSampleSpeed":	8000,
+			"enStereo":	0,
+			"nVolume":	68,
+			"nGain":	40,
+			"bNoiseReduction":	false
+		}],
+	"stAudioAo":	{
+		"bEnable":	false,
+		"bAmic":	true,
+		"enEncodeType":	0,
+		"enSampleSize":	16,
+		"enSampleSpeed":	8000,
+		"enStereo":	0,
+		"nVolume":	60,
+		"nGain":	100
+	}
+}

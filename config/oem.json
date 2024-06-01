@@ -1,0 +1,92 @@
+{
+	"strVersion":	"1.1.1",
+	"PromptSound":	{
+		"Enable":	true,
+		"enType":	1
+	},
+	"DevOemName":	"JUAN",
+	"nWhiteLightLevel":	0,
+	"nInfraRedLevel":	0,
+	"bFlipVertical":	0,
+	"bFlipHorizontal":	0,
+	"bPtzVertical":	0,
+	"bPtzHorizontal":	0,
+	"nIrcutMode":	0,
+	"nDayToNightLevel":	1,
+	"nNightToDayLevel":	1,
+	"nInstallMode":	2,
+	"FishEye":	{
+		"nCenterCoordinateX":	1154,
+		"nCenterCoordinateY":	645,
+		"nRadius":	1126,
+		"nAngleX":	0,
+		"nAngleY":	0,
+		"nAngleZ":	0
+	},
+	"nPtzHorizontalAngleMax":	266,
+	"nPtzVerticalAngleMax":	90,
+	"nPtzHSteps":	3890,
+	"nPtzVSteps":	510,
+	"bSelfCheck":	true,
+	"bPtzNoLimit":	false,
+	"nPtzBeat":	4,
+	"nPtzHHzMax":	0,
+	"nPtzHHz":	0,
+	"nPtzVHzMax":	0,
+	"nPtzVHz":	0,
+	"enLightMode":	4,
+	"MotDetect":	{
+		"bAudioOut":	false,
+		"bHdEnable":	false,
+		"bHdDrawEnable":	false,
+		"nHdAlarmLevel":	2
+	},
+	"nPirTrigger":	0,
+	"nphotosensitiveType":	0,
+	"nphotosensitiveLow":	100,
+	"nphotosensitiveHigh":	250,
+	"nDayLevel":	1,
+	"nLedToLight":	0,
+	"nIrfraRedToAlarm":	0,
+	"bShowNameOsd":	true,
+	"strNameOsd":	"IPCAM",
+	"nNameOsdXpos":	15.149999618530273,
+	"nNameOsdYpos":	4.4444451332092285,
+	"bShowDateOsd":	true,
+	"nDateOsdXpos":	15.149999618530273,
+	"nDateOsdYpos":	0,
+	"enDateOsdType":	0,
+	"bGB28181":	false,
+	"nAudioInputGain":	40,
+	"nAudioInputVolume":	68,
+	"nAudioOutputGain":	100,
+	"nAudioOutputVolume":	60,
+	"strManufacturer":	"GUANGZHOU",
+	"nZoneIndex":	800,
+	"stVideolist":	[{
+			"nWidth":	0,
+			"nHeight":	0
+		}, {
+			"nWidth":	0,
+			"nHeight":	0
+		}, {
+			"nWidth":	0,
+			"nHeight":	0
+		}, {
+			"nWidth":	0,
+			"nHeight":	0
+		}],
+	"P2PType":	0,
+	"hUartPtzinfo":	{
+		"nProtocol":	0,
+		"nBaudRate":	9600,
+		"nDataBits":	8,
+		"szParity":	"",
+		"nStopBits":	1
+	},
+	"battAttr":	[9800, 9822, 9844, 9866, 9888, 9910, 9932, 9954, 9976, 9998, 10020, 10042, 10064, 10086, 10108, 10130, 10152, 10174, 10196, 10218, 10240, 10262, 10284, 10306, 10328, 10350, 10372, 10394, 10416, 10438, 10460, 10482, 10504, 10526, 10548, 10570, 10592, 10614, 10636, 10658, 10680, 10702, 10724, 10746, 10768, 10790, 10812, 10834, 10856, 10878, 10900, 10922, 10944, 10966, 10988, 11010, 11032, 11054, 11076, 11098, 11120, 11142, 11164, 11186, 11208, 11230, 11252, 11274, 11296, 11318, 11340, 11362, 11384, 11406, 11428, 11450, 11472, 11494, 11516, 11538, 11560, 11582, 11604, 11626, 11648, 11670, 11692, 11714, 11736, 11758, 11780, 11802, 11824, 11846, 11868, 11890, 11912, 11934, 11956, 11978, 12000],
+	"batteryMin":	9800,
+	"batteryMax":	12000,
+	"batteryMultiple":	9,
+	"bNoiseReduction":	false
+}

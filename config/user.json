@@ -1,0 +1,15 @@
+{
+	"nUserCount":	1,
+	"stUser":	[{
+			"bEnable":	true,
+			"bCurUsed":	true,
+			"strUserName":	"admin",
+			"strUserpaswd":	"",
+			"enPriority":	2,
+			"LivePermission":	1,
+			"SetPermission":	1,
+			"PlayPermission":	1,
+			"PtzCtrlPermission":	1,
+			"BackupPermission":	1
+		}]
+}

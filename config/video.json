@@ -1,0 +1,428 @@
+{
+	"strChannelName":	"HDIPC",
+	"stVideolist":	[{
+			"bEnable":	true,
+			"enProfileType":	0,
+			"enEncodeType":	3,
+			"enResolution":	2,
+			"nWidth":	2304,
+			"nHeight":	1296,
+			"enBitrateType":	1,
+			"enQuality":	0,
+			"nBitrate":	512,
+			"nFrameRate":	15,
+			"nMinFrameRate":	1,
+			"nMaxFrameRate":	15,
+			"nFrameGop":	30,
+			"nFrameInterval":	2,
+			"nFrameDepth":	2,
+			"nMinQp":	28,
+			"nMaxQp":	50,
+			"nIFrameMinQp":	32,
+			"nIFrameMaxQp":	40,
+			"nIFrameMaxSize":	100,
+			"nSmartMode":	0,
+			"nSmartGoplen":	150,
+			"nSmartQuality":	20,
+			"nSmartStaticValue":	550
+		}, {
+			"bEnable":	true,
+			"enProfileType":	0,
+			"enEncodeType":	3,
+			"enResolution":	2,
+			"nWidth":	640,
+			"nHeight":	360,
+			"enBitrateType":	1,
+			"enQuality":	0,
+			"nBitrate":	256,
+			"nFrameRate":	5,
+			"nMinFrameRate":	1,
+			"nMaxFrameRate":	5,
+			"nFrameGop":	10,
+			"nFrameInterval":	2,
+			"nFrameDepth":	2,
+			"nMinQp":	25,
+			"nMaxQp":	40,
+			"nIFrameMinQp":	25,
+			"nIFrameMaxQp":	40,
+			"nIFrameMaxSize":	100,
+			"nSmartMode":	0,
+			"nSmartGoplen":	150,
+			"nSmartQuality":	20,
+			"nSmartStaticValue":	550
+		}, {
+			"bEnable":	false,
+			"enProfileType":	0,
+			"enEncodeType":	0,
+			"enResolution":	2,
+			"nWidth":	0,
+			"nHeight":	0,
+			"enBitrateType":	0,
+			"enQuality":	0,
+			"nBitrate":	0,
+			"nFrameRate":	0,
+			"nMinFrameRate":	0,
+			"nMaxFrameRate":	0,
+			"nFrameGop":	0,
+			"nFrameInterval":	0,
+			"nFrameDepth":	0,
+			"nMinQp":	25,
+			"nMaxQp":	0,
+			"nIFrameMinQp":	0,
+			"nIFrameMaxQp":	0,
+			"nIFrameMaxSize":	0,
+			"nSmartMode":	0,
+			"nSmartGoplen":	0,
+			"nSmartQuality":	0,
+			"nSmartStaticValue":	0
+		}, {
+			"bEnable":	false,
+			"enProfileType":	0,
+			"enEncodeType":	0,
+			"enResolution":	2,
+			"nWidth":	0,
+			"nHeight":	0,
+			"enBitrateType":	0,
+			"enQuality":	0,
+			"nBitrate":	0,
+			"nFrameRate":	0,
+			"nMinFrameRate":	0,
+			"nMaxFrameRate":	0,
+			"nFrameGop":	0,
+			"nFrameInterval":	0,
+			"nFrameDepth":	0,
+			"nMinQp":	25,
+			"nMaxQp":	0,
+			"nIFrameMinQp":	0,
+			"nIFrameMaxQp":	0,
+			"nIFrameMaxSize":	0,
+			"nSmartMode":	0,
+			"nSmartGoplen":	0,
+			"nSmartQuality":	0,
+			"nSmartStaticValue":	0
+		}],
+	"stMasklist":	[{
+			"bEnableMask":	false,
+			"bEnableMaskAlarm":	true,
+			"enMaskAlarmLevel":	30,
+			"stArmTimelist":	[{
+					"bEnable":	true,
+					"nWeekday":	127,
+					"nStartTime":	0,
+					"nStopTime":	86399
+				}, {
+					"bEnable":	true,
+					"nWeekday":	127,
+					"nStartTime":	0,
+					"nStopTime":	86399
+				}],
+			"stMaskArealist":	[{
+					"stregionX":	0,
+					"stregionY":	0,
+					"stregionWidth":	0,
+					"stregionHeight":	0,
+					"stregionColor":	0
+				}],
+			"stHandleType":	{
+				"enHandleType":	0,
+				"bSendeMail":	false,
+				"bAlarmOut":	false,
+				"bAudioOut":	false,
+				"bSanpshot":	false,
+				"bRecord":	false,
+				"enSoundType":	false
+			}
+		}, {
+			"bEnableMask":	false,
+			"bEnableMaskAlarm":	true,
+			"enMaskAlarmLevel":	30,
+			"stArmTimelist":	[{
+					"bEnable":	true,
+					"nWeekday":	127,
+					"nStartTime":	0,
+					"nStopTime":	86399
+				}, {
+					"bEnable":	true,
+					"nWeekday":	127,
+					"nStartTime":	0,
+					"nStopTime":	86399
+				}],
+			"stMaskArealist":	[{
+					"stregionX":	0,
+					"stregionY":	0,
+					"stregionWidth":	0,
+					"stregionHeight":	0,
+					"stregionColor":	0
+				}],
+			"stHandleType":	{
+				"enHandleType":	0,
+				"bSendeMail":	false,
+				"bAlarmOut":	false,
+				"bAudioOut":	false,
+				"bSanpshot":	false,
+				"bRecord":	false,
+				"enSoundType":	false
+			}
+		}, {
+			"bEnableMask":	false,
+			"bEnableMaskAlarm":	true,
+			"enMaskAlarmLevel":	30,
+			"stArmTimelist":	[{
+					"bEnable":	true,
+					"nWeekday":	127,
+					"nStartTime":	0,
+					"nStopTime":	86399
+				}, {
+					"bEnable":	true,
+					"nWeekday":	127,
+					"nStartTime":	0,
+					"nStopTime":	86399
+				}],
+			"stMaskArealist":	[{
+					"stregionX":	0,
+					"stregionY":	0,
+					"stregionWidth":	0,
+					"stregionHeight":	0,
+					"stregionColor":	0
+				}],
+			"stHandleType":	{
+				"enHandleType":	0,
+				"bSendeMail":	false,
+				"bAlarmOut":	false,
+				"bAudioOut":	false,
+				"bSanpshot":	false,
+				"bRecord":	false,
+				"enSoundType":	false
+			}
+		}, {
+			"bEnableMask":	false,
+			"bEnableMaskAlarm":	true,
+			"enMaskAlarmLevel":	30,
+			"stArmTimelist":	[{
+					"bEnable":	true,
+					"nWeekday":	127,
+					"nStartTime":	0,
+					"nStopTime":	86399
+				}, {
+					"bEnable":	true,
+					"nWeekday":	127,
+					"nStartTime":	0,
+					"nStopTime":	86399
+				}],
+			"stMaskArealist":	[{
+					"stregionX":	0,
+					"stregionY":	0,
+					"stregionWidth":	0,
+					"stregionHeight":	0,
+					"stregionColor":	0
+				}],
+			"stHandleType":	{
+				"enHandleType":	0,
+				"bSendeMail":	false,
+				"bAlarmOut":	false,
+				"bAudioOut":	false,
+				"bSanpshot":	false,
+				"bRecord":	false,
+				"enSoundType":	false
+			}
+		}],
+	"stCordon":	{
+		"bEnableCordon":	false,
+		"enCordonType":	1,
+		"nMaxColumns":	32,
+		"nMaxRows":	24,
+		"nMaxLines":	4,
+		"stCordonLinelist":	[{
+				"nBeginX":	0,
+				"nBeginY":	0,
+				"nEndX":	0,
+				"nEndY":	0
+			}, {
+				"nBeginX":	0,
+				"nBeginY":	0,
+				"nEndX":	0,
+				"nEndY":	0
+			}, {
+				"nBeginX":	0,
+				"nBeginY":	0,
+				"nEndX":	0,
+				"nEndY":	0
+			}, {
+				"nBeginX":	0,
+				"nBeginY":	0,
+				"nEndX":	0,
+				"nEndY":	0
+			}],
+		"stCordonArealist":	[2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 0, 0, 0, 0, 0, 0, 0, 0]
+	},
+	"stMotdet":	{
+		"bEnableMotDet":	false,
+		"bEnableMotDetAlarm":	false,
+		"enMotDetAlarmLevel":	80,
+		"nWidth":	32,
+		"nHeight":	24,
+		"bEnableMdRecord":	true,
+		"stArmTimelist":	[{
+				"bEnable":	true,
+				"nWeekday":	255,
+				"nStartTime":	0,
+				"nStopTime":	86399
+			}, {
+				"bEnable":	false,
+				"nWeekday":	0,
+				"nStartTime":	0,
+				"nStopTime":	0
+			}],
+		"BitSchedulelist":	[16777215, 16777215, 16777215, 16777215, 16777215, 16777215, 16777215],
+		"stMotionArealist":	[[false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], [false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]],
+		"stHandleType":	{
+			"enHandleType":	1,
+			"bSendeMail":	true,
+			"bAlarmOut":	true,
+			"bAudioOut":	false,
+			"bSanpshot":	true,
+			"bRecord":	true,
+			"enSoundType":	false
+		},
+		"bEnableMT":	false,
+		"bEnableHD":	false,
+		"bHumanDetDraw":	false,
+		"enHdAlarmLevel":	2,
+		"stGuard":	{
+			"bEnableGuard":	false,
+			"stayTimeSeconds":	10,
+			"nPresetIndex":	0,
+			"bitSchedule":	[16777215, 16777215, 16777215, 16777215, 16777215, 16777215, 16777215]
+		}
+	},
+	"stSignalLost":	{
+		"bVideoLost":	false,
+		"bNetworkLost":	false,
+		"bAudioLost":	false,
+		"bEnableLostAlarm":	false,
+		"handleType":	{
+			"enHandleType":	0,
+			"bSendeMail":	false,
+			"bAlarmOut":	false,
+			"bAudioOut":	false,
+			"bSanpshot":	false,
+			"bRecord":	false,
+			"enSoundType":	false
+		}
+	},
+	"stIrcut":	{
+		"bEnable":	true,
+		"bReverse":	false,
+		"enIrCutMode":	0,
+		"nDelayTime":	6
+	},
+	"stOsd":	{
+		"stTime":	{
+			"enHourType":	0,
+			"bDispDate":	true,
+			"bDispWeek":	false,
+			"bDispEnglish":	true,
+			"enDateOsdType":	0,
+			"stOsdAttr":	{
+				"enOsdAttrib":	0,
+				"enFontColor":	0,
+				"enBackColor":	0,
+				"nPercent_x":	15.149999618530273,
+				"nPercent_y":	0
+			}
+		},
+		"stChnName":	{
+			"bShowNameOsd":	false,
+			"strText":	"IPCAM",
+			"stOsdAttr":	{
+				"enOsdAttrib":	0,
+				"enFontColor":	0,
+				"enBackColor":	0,
+				"nPercent_x":	15.149999618530273,
+				"nPercent_y":	4.4444451332092285
+			}
+		},
+		"stTextList":	[{
+				"bShowNameOsd":	false,
+				"strText":	"",
+				"stOsdAttr":	{
+					"enOsdAttrib":	0,
+					"enFontColor":	0,
+					"enBackColor":	0,
+					"nPercent_x":	0,
+					"nPercent_y":	0
+				}
+			}, {
+				"bShowNameOsd":	false,
+				"strText":	"",
+				"stOsdAttr":	{
+					"enOsdAttrib":	0,
+					"enFontColor":	0,
+					"enBackColor":	0,
+					"nPercent_x":	0,
+					"nPercent_y":	0
+				}
+			}, {
+				"bShowNameOsd":	false,
+				"strText":	"",
+				"stOsdAttr":	{
+					"enOsdAttrib":	0,
+					"enFontColor":	0,
+					"enBackColor":	0,
+					"nPercent_x":	0,
+					"nPercent_y":	0
+				}
+			}]
+	},
+	"stVisp":	{
+		"enCtrlIruct":	0,
+		"bFlipVertical":	false,
+		"bFlipHorizontal":	false,
+		"enFreqPower":	0,
+		"nBackLight":	0,
+		"bAwebEnable":	false,
+		"bIspTools":	false,
+		"strSensorId":	"0x2332",
+		"stBrightness":	{
+			"nValue":	50,
+			"nDefult":	50,
+			"nMin":	0,
+			"nMax":	100
+		},
+		"stContrast":	{
+			"nValue":	50,
+			"nDefult":	50,
+			"nMin":	0,
+			"nMax":	100
+		},
+		"stTonality":	{
+			"nValue":	50,
+			"nDefult":	50,
+			"nMin":	0,
+			"nMax":	100
+		},
+		"stSaturation":	{
+			"nValue":	50,
+			"nDefult":	50,
+			"nMin":	0,
+			"nMax":	100
+		},
+		"stSharpness":	{
+			"nValue":	50,
+			"nDefult":	50,
+			"nMin":	0,
+			"nMax":	100
+		},
+		"stImgStyle":	{
+			"nValue":	1,
+			"nDefult":	1,
+			"nMin":	1,
+			"nMax":	3
+		},
+		"stImgLsc":	{
+			"nXref":	1154,
+			"nYref":	645,
+			"nRange":	1126
+		}
+	}
+}

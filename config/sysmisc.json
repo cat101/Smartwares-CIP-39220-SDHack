@@ -1,0 +1,34 @@
+{
+	"PromptSound":	{
+		"Enable":	false,
+		"enType":	1
+	},
+	"ConvenientSetting":	{
+		"Enable":	true,
+		"enType":	0
+	},
+	"SystemMaintenance":	{
+		"Enable":	true,
+		"nInterval":	604800,
+		"enType":	0
+	},
+	"UlinkToken":	"ulinktoken",
+	"SuccessWifi":	false,
+	"enNetMode":	0,
+	"bPrompt":	true,
+	"bReboot":	false,
+	"enWifiMode":	0,
+	"bPirEnabled":	true,
+	"bAlexa":	false,
+	"strRebootMsg":	"WIFI 2023-10-18 8-48-50",
+	"stMonoply":	{
+		"bMonopoly":	false,
+		"strDevicePsk":	""
+	},
+	"bInitOnvif":	true,
+	"stUpgrade":	{
+		"nUpgradeType":	0,
+		"nUpgradeSize":	0,
+		"strRomFile":	""
+	}
+}

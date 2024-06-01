@@ -1,0 +1,12 @@
+{
+	"OsscloudSetting":	{
+		"bDebug":	false,
+		"bIsBound":	false,
+		"bEnabled":	false,
+		"nChNum":	1,
+		"bRecord":	0,
+		"nType":	1,
+		"nTime":	30,
+		"strEseeServer":	"sts.dvr163.com"
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"emIrcutType":	0,
+	"emType":	8,
+	"emMode":	4,
+	"emModeTmp":	0,
+	"enDevice":	27,
+	"stSchedule":	{
+		"bEnable":	false,
+		"Segmentlist":	[{
+				"bEnable":	false,
+				"nWeekday":	0,
+				"nStartTime":	0,
+				"nStopTime":	0
+			}, {
+				"bEnable":	false,
+				"nWeekday":	0,
+				"nStartTime":	0,
+				"nStopTime":	0
+			}]
+	},
+	"stAlaram":	{
+		"bAlarm":	false,
+		"nAlarmSec":	false,
+		"AlarmSchedulelist":	[{
+				"bEnable":	false,
+				"nWeekday":	0,
+				"nStartTime":	0,
+				"nStopTime":	0
+			}, {
+				"bEnable":	false,
+				"nWeekday":	0,
+				"nStartTime":	0,
+				"nStopTime":	0
+			}]
+	},
+	"stIrcut":	{
+		"bEnable":	false,
+		"bReverse":	false,
+		"enIrCutMode":	0,
+		"nDelayTime":	0,
+		"nDayToNightLevel":	1,
+		"nNightToDayLevel":	1
+	}
+}
