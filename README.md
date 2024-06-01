@@ -14,6 +14,8 @@ This repo contains a firmware mod for the
  * Newer wpa_supplicant
  * Access to all the config native config settings
    * Configure main and sub RTSP streams
+     * `rtsp://root:PASSWD@camera_ip/stream=0`
+     * `rtsp://root:PASSWD@camera_ip/stream=1`
 
 ## Installation
  1. Install EseeCloud android app. Don't use the SW360 app.

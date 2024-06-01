@@ -1,5 +1,5 @@
 #!/bin/sh
-# Based on OpenWRT's watchcat idea
+# This is script is based on OpenWRT's watchcat idea. The key principel is that if the camera cannot connecto a WIFI it is worthless so it willl try by all means to connect. Depending on the configuration, it will first try to restart the network or connecto to alternative SSIDs. If all this fails, after a couple of tries, it will reboot the camera.
 
 if [ -z "$1" ]; then
   echo "Usage: <host_to_ping> [<ssid> <psk>]"
